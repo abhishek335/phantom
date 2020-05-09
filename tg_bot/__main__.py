@@ -28,17 +28,12 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 
-┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-┈┈┈▕▕╲┊┊╱▏▏┈┈┈
-┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-┈┈┈┈╲┊┊┊┊╱┈┈┈┈
-┈┈┈┈▕╲▂▂╱▏┈┈┈┈
-╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-HOI    {}, MY NAME IS {} !
 
-I AM A GROUP MANAGER BOT MAINTAINED BY 
+HAI    {},NiCe To MeAt YoU.. MY NAME IS {} !
 
-[THIS LEGEND](tg://user?id={}).
+I AM A GROUP MANAGER BOT MAINTAINED FOR
+
+[THIS GROUP](t.me/request_ur_movies).
 
 HIT HELP FOR COMMANDS  /help
 
