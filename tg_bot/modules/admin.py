@@ -357,18 +357,25 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- - /adminlist: list of admins in the chat
-
+ - /adminlist: list of admins and members in the chat
+ - /staff: same as /adminlist
+ - /link: get the group link for this chat.
+ - #link: same as /link
+ 
 *Admin only:*
- - /pin: silently pins the message replied to - add 'loud' or 'notify' to give notifs to users.
- - /unpin: unpins the currently pinned message
- - /invitelink: gets invitelink
+ - /pin: silently pins the message replied to - add 'loud' or 'notify' to give notifies to users.
+ - /unpin: unpins the currently pinned message.
+ - /invitelink: generates new invite link.
+ - /setlink <your group link here>: set the group link for this chat.
+ - /clearlink: clear the group link for this chat.
  - /promote: promotes the user replied to
  - /demote: demotes the user replied to
- - /settitle: sets a custom title for an admin that the bot promoted.
- - /settitle: Sets a custom title for an admin which is promoted by bot.
- - /setgpic: As a reply to file or photo to set group profile pic!
- - /delgpic: Same as above but to remove group profile pic.
+
+An example of set a link:
+/setlink https://t.me/joinchat/HwiIk1RADK5gRMr9FBdOrwtae
+
+An example of promoting someone to admins:
+/promote @username; this promotes a user to admins.
 
 """
 
