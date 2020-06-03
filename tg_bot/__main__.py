@@ -26,16 +26,16 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
+await m.reply_text(
+        
+ 
+                    InlineKeyboardButton('📌  Support Group', url='https://t.me/InFoTelGroup'),
+                    InlineKeyboardButton('🔖  Projects Channel', url='https://t.me/TGBotsZ')
+              
+              
+                    InlineKeyboardButton('💡  Source Code', url='https://github.com/TGExplore/Screenshot-Bot'),
+                    InlineKeyboardButton('👨  Master', url='https://t.me/odbots')
 
-
-
-HAI    {},NiCe To MeAt YoU.. MY NAME IS {} !
-
-I AM A GROUP MANAGER BOT MAINTAINED FOR
-
-[THIS GROUP](t.me/request_ur_movies).
-
-HIT HELP FOR COMMANDS  /help
 
 """
 
