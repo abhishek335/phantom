@@ -33,9 +33,7 @@ HAI    {},NiCe To MeAt YoU.. MY NAME IS {} !
 
 I AM A GROUP MANAGER BOT MAINTAINED FOR
 
-[THIS GROUP](t.me/request_ur_movies).
-
-HIT HELP FOR COMMANDS  /help
+InlineKeyboardButton('📌  Support Group', url='https://t.me/InFoTelGroup')
 
 """
 
