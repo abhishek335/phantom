@@ -33,7 +33,18 @@ HAI    {},NiCe To MeAt YoU.. MY NAME IS {} !
 
 I AM A GROUP MANAGER BOT MAINTAINED FOR
 
-InlineKeyboardButton('📌  Support Group', url='https://t.me/InFoTelGroup')
+[
+                [
+                    InlineKeyboardButton('📌  Support Group', url='https://t.me/InFoTelGroup'),
+                    InlineKeyboardButton('🔖  Projects Channel', url='https://t.me/TGBotsZ')
+                ],
+                [
+                    InlineKeyboardButton('💡  Source Code', url='https://github.com/TGExplore/Screenshot-Bot'),
+                    InlineKeyboardButton('👨  Master', url='https://t.me/odbots')
+                ]
+            ]
+        )
+    )
 
 """
 
