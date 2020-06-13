@@ -345,7 +345,6 @@ def adminlist(bot: Bot, update: Update):
             
         if status == "administrator":
             text += "\n`👮🏻 `{}".format(name)
-            members = "\n\n*Members:*\n`🙍‍♂️ ` {} users".format(count)
             
     msg.reply_text(text + members, parse_mode=ParseMode.MARKDOWN)
 
