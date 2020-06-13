@@ -333,7 +333,7 @@ def adminlist(bot: Bot, update: Update):
             text += "\n 🔱 Creator:"
             text += "\n` • `{} \n\n • *Administrators*:".format(name)
             
-    msg.reply_text(text + members, parse_mode=ParseMode.MARKDOWN)
+    msg.reply_text(text, parse_mode=ParseMode.MARKDOWN)
 
 
 
