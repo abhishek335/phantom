@@ -331,21 +331,8 @@ def adminlist(bot: Bot, update: Update):
         name = "[{}](tg://user?id={})".format(user.first_name + " " + (user.last_name or ""), user.id)
         if user.username:
             name = name = escape_markdown("@" + user.username)
-        if status == "creator":
-            text += "\n 🔱 Creator:"
+        if status == 
             text += "\n` • `{} \n\n • *Administrators*:".format(name)
-    for admin in administrators:
-        user = admin.user
-        status = admin.status
-        chat = update.effective_chat
-        count = chat.get_members_count()
-        name = "[{}](tg://user?id={})".format(user.first_name + " " + (user.last_name or ""), user.id)
-        if user.username:
-            name = escape_markdown("@" + user.username)
-            
-        if status == "administrator":
-            text += "\n`👮🏻 `{}".format(name)
-            members = "\n\n*Members:*\n`🙍‍♂️ ` {} users".format(count)
             
     msg.reply_text(text + members, parse_mode=ParseMode.MARKDOWN)
 
