@@ -332,8 +332,6 @@ def adminlist(bot: Bot, update: Update):
         text += "\n - {}".format(name)
 
     update.effective_message.reply_text(text, parse_mode=ParseMode.MARKDOWN)
-            
-    msg.reply_text(text + members, parse_mode=ParseMode.MARKDOWN)
 
 
 
